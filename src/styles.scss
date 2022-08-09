@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.container {
+    height: -webkit-fill-available;
+    position: relative;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+img {
+    width: 100%;
+
+}
+
+button {
+    //  position: absolute; 
+    padding: 16px;
+    background-color: rgb(20, 37, 227);
+    border-radius: 16px;
+    bottom: 10px;
+    left: 200px;
+    width: 100px;
+    align-items: center;
+    color: wheat;
+}
+// .bg {
+//     background-image: url("./assets/2926154-1.jpeg");
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: contain;
+// }
+.bg {
+    background: url("./assets/2926154-1.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
